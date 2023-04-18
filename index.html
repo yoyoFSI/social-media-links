@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+		
+		h1 {
+			color: #333;
+			text-align: center;
+			margin-top: 50px;
+		}
+		
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+		}
+		
+		button {
+			background-color: #4CAF50;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+			border-radius: 5px;
+		}
+		
+		button:hover {
+			background-color: #45a049;
+		}
+		
+		input[type=text] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border-radius: 5px;
+			border: none;
+		}
+		
+		input[type=text]:focus {
+			outline-color: #4CAF50;
+		}
+		
+		button:active {
+		box-shadow: 0 0 30px #719ECE;
+		}
+		button {
+		transition: box-shadow 0.2s ease-in-out;
+		}
+
+		button:hover {
+		box-shadow: 0 0 40px #FF0000;
+		}
+		a {
+		transition: all 0.3s ease-in-out;
+		}
+
+		a:hover {
+			box-shadow: 0 0 10px #719ECE;
+		}
+
+		a:active {
+			transform: scale(0.95);
+		}
+	</style>
+</head>
+<body>
+
+<h1>My socials:</h1>
+
+<div class="container">
+	
+	<button onclick="window.open('https://www.youtube.com/@yoyofsi')">Visit my Youtube Channel</button>
+	
+	<button class="twit" onclick="window.open('https://twitter.com/yoyoFSI')">My Twitter</button>
+
+	<button onclick="window.open('https://discord.gg/7B2qEergeK')">Join the Discord server!</button>
+	
+</div>
+
+</body>
+</html> 
