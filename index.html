@@ -7,20 +7,17 @@
 			background-color: #f2f2f2;
 			font-family: Arial, sans-serif;
 		}
-		
 		h1 {
 			color: #333;
 			text-align: center;
 			margin-top: 50px;
 		}
-		
 		.container {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 			margin-top: 50px;
 		}
-		
 		button {
 			background-color: #4CAF50;
 			color: white;
@@ -31,11 +28,9 @@
 			width: 100%;
 			border-radius: 5px;
 		}
-		
 		button:hover {
 			background-color: #45a049;
 		}
-		
 		input[type=text] {
 			width: 100%;
 			padding: 12px 20px;
@@ -44,47 +39,47 @@
 			border-radius: 5px;
 			border: none;
 		}
-		
 		input[type=text]:focus {
 			outline-color: #4CAF50;
 		}
-		
 		button:active {
-		box-shadow: 0 0 30px #719ECE;
+			box-shadow: 0 0 30px #719ECE;
 		}
 		button {
-		transition: box-shadow 0.2s ease-in-out;
+			transition: box-shadow 0.2s ease-in-out;
 		}
-
 		button:hover {
-		box-shadow: 0 0 40px #FF0000;
+			box-shadow: 0 0 40px #FF0000;
+		}
+		.twit:hover {
+			box-shadow: 0 0 40px #00BFFF;
+		}
+		button:nth-of-type(3):hover {
+			background-color: #5865f2;
+		}
+		button:nth-of-type(2):hover {
+			background-color: #00BFFF;
+		}
+		button:nth-of-type(1):hover {
+			background-color: #FF0000;
 		}
 		a {
-		transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
 		}
-
 		a:hover {
 			box-shadow: 0 0 10px #719ECE;
 		}
-
 		a:active {
 			transform: scale(0.95);
 		}
 	</style>
 </head>
 <body>
-
-<h1>My socials:</h1>
-
-<div class="container">
-	
-	<button onclick="window.open('https://www.youtube.com/@yoyofsi')">Visit my Youtube Channel</button>
-	
-	<button class="twit" onclick="window.open('https://twitter.com/yoyoFSI')">My Twitter</button>
-
-	<button onclick="window.open('https://discord.gg/7B2qEergeK')">Join the Discord server!</button>
-	
-</div>
-
+	<h1>My socials:</h1>
+	<div class="container">
+		<button onclick="window.open('https://www.youtube.com/@yoyofsi')">Visit my Youtube Channel</button>
+		<button class="twit" onclick="window.open('https://twitter.com/yoyoFSI')">My Twitter</button>
+		<button onclick="window.open('https://discord.gg/7B2qEergeK')">Join the Discord server!</button>
+	</div>
 </body>
-</html> 
+</html>
